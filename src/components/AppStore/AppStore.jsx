@@ -27,7 +27,7 @@ const AppStore = () => {
                 Coffee Haven is now availiable for Android and IOS
               </h1>
               <div className="flex flex-wrap justify-center sm:justify-start items-center">
-                <a href="#">
+                <a href="/coffee-haven/">
                   <img
                     src={AppStoreImg}
                     alt="App Store Image"

@@ -5,19 +5,19 @@ import FooterBg from "../../assets/website/coffee-footer.jpg";
 const FooterLinks = [
   {
     title: "Home",
-    link: "/#",
+    link: "/coffee-haven/",
   },
   {
     title: "About",
-    link: "/#about",
+    link: "/coffee-haven/#about",
   },
   {
     title: "Contact",
-    link: "/#contact",
+    link: "/coffee-haven/#contact",
   },
   {
     title: "Blog",
-    link: "/#blog",
+    link: "/coffee-haven/#blog",
   },
 ];
 
@@ -37,7 +37,7 @@ const Footer = () => {
         <div className="container grid md:grid-cols-3 pb-20 pt-5">
           <div>
             <a
-              href="#"
+              href="/coffee-haven/"
               className=" font-semibold tracking-widest text-2xl sm:text-3xl font-cursive"
             >
               {" "}
@@ -99,7 +99,7 @@ const Footer = () => {
                 <p> Kukatpally, Hyderabad, Telangana, India</p>
                 <p className="text-sm">+91 1234567890</p>
                 <div className="space-x-2 mt-6">
-                  <a href="#">
+                  <a href="/coffee-haven/">
                     <FaFacebook className="text-3xl inline-block hover:scale-105 duration-200" />
                   </a>
                   <a href="https://www.instagram.com/manitejarao.gurenka/">

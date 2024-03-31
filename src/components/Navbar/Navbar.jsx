@@ -6,17 +6,17 @@ const Menus = [
   {
     id: 1,
     name: "Home",
-    link: "/",
+    link: "/coffee-haven",
   },
   {
     id: 2,
     name: "Services",
-    link: "/#services",
+    link: "/coffee-haven/#services",
   },
   {
     id: 3,
     name: "About",
-    link: "/#about",
+    link: "/coffee-haven/#about",
   },
 ];
 
