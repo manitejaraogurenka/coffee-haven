@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center gap-4">
           <div data-aos="fade-down" data-aos-once="true">
             <a
-              href="/"
+              href="/coffee-haven"
               className="font-bold text-2xl sm:text-3xl flex justify-center items-center gap-2 tracking-wider font-logo_font"
             >
               <img src={Logo} alt="Coffee Haven logo" className="w-14" />
